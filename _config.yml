@@ -1,1 +1,13 @@
 auto: true
+
+# analytics
+analytics:
+  provider: google
+  google:
+    tracking_id: 'UA-37715886-1'
+
+# comments
+comments:
+  provider: disqus
+  disqus:
+    short_name: amaslenn
