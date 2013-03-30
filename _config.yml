@@ -1,5 +1,9 @@
 auto: true
 
+name: amaslenn.github.com
+description: Blog of amaslenn
+url: amaslenn.github.com
+
 # analytics
 analytics:
   provider: google
