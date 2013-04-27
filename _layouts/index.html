@@ -11,7 +11,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     {% assign domain = page.url | domain_name %}
-    {% if domain == '' %}
+    {% if domain == page.url %}
       {% include metrics.md %}
     {% endif %}
   </head>

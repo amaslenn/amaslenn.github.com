@@ -10,7 +10,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     {% assign domain = page.url | domain_name %}
-    {% if domain == '' %}
+    {% if domain == page.url %}
       {% include metrics.md %}
     {% endif %}
   </head>
@@ -25,7 +25,7 @@
       <section>
         <h1>{{ page.title }}</h1>
         {% if 1 %}
-          <p>{{domain}}</p>
+          <p>{{domain}} == {{page.url}}</p>
         {% endif %}
         <p>{{ content }}</p>
 
