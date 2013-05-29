@@ -4,7 +4,9 @@ name: amaslenn.github.com
 description: Blog of amaslenn
 url: http://amaslenn.github.io
 
-safe: false
+safe: true
+lsi: false
+pygments: true
 
 # analytics
 analytics:
