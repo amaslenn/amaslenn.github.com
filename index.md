@@ -12,10 +12,9 @@ title: Blog of amaslenn
   {% endfor %}
 
   {% if show %}
-  <div class="post_preview">
-     <a href="{{ post.url }}"><b>{{ post.title }}</b></a> (from {{ post.date | date_to_string }}) </br>
+  <div style="padding-bottom:0.9em" class="post_preview">
+     <div><a href="{{ post.url }}"><b>{{ post.title }}</b></a> (from {{ post.date | date_to_string }})</div>
      {{ post.content | strip_html | truncatewords: 42 }}
   </div>
-  </br>
   {% endif %}
 {% endfor %}
