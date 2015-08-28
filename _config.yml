@@ -1,12 +1,10 @@
-auto: true
-
 name: amaslenn.github.com
 description: Blog of amaslenn
 url: http://amaslenn.github.io
 
 safe: true
 lsi: false
-pygments: true
+highlighter: pygments
 
 # analytics
 analytics:
