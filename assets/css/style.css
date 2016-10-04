@@ -2,7 +2,7 @@
 
 body {
   padding:50px;
-  font:16px/1.3 Lato, Candara, Helvetica, Ubuntu;
+  font:16px/1.3 Candara, Helvetica, Ubuntu, Arial;
   color:#777;
   font-weight:300;
 }
@@ -58,8 +58,8 @@ blockquote {
 }
 
 code, pre {
-  font-family:Consolas, Ubuntu Mono;
-  font-size:12px;
+  font-family:Consolas, Ubuntu Mono, Monaco;
+  font-size:14px;
 }
 
 pre {
