@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: amaslenn.github.io
-description: About anything
+description: It is always about the author
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://amaslenn.github.io" # the base hostname & protocol for your site
 twitter_username: amaslenn
