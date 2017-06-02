@@ -1,6 +1,6 @@
 ---
 title: О пользе дебага и документации
-layout: post
+layout: default
 tags: [programming, perl, getopt]
 ---
 

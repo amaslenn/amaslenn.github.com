@@ -1,6 +1,6 @@
 ---
 title: Conditional include in git config
-layout: post
+layout: default
 tags: [git, development]
 ---
 Git [обновился](https://github.com/blog/2360-git-2-13-has-been-released). Добавилась очень интересная фича: [conditional includes](https://git-scm.com/docs/git-config#_includes) для конфигов. Самый простой пример, зачем это нужно, это разные настройки пользователя (имя и почта) для разных проектов. Можно рабочие репозитории держать в `~/work`, а остальное в `~/pleasure` (зачем в такой директории держать репозитории не очень ясно, но для примера это нужно). И для разных директорий подключать разные конфиги.

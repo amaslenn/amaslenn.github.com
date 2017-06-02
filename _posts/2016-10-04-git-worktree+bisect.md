@@ -1,6 +1,6 @@
 ---
 title: "Git: worktree + bisect = ♥"
-layout: post
+layout: default
 ---
 
 [Git worktree](https://git-scm.com/docs/git-worktree) - create branch in separate folder  

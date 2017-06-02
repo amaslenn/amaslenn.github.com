@@ -1,6 +1,6 @@
 ---
 title: Техосмотр
-layout: post
+layout: default
 tags: [auto]
 ---
 

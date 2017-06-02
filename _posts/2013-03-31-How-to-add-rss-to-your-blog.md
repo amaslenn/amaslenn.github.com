@@ -1,6 +1,6 @@
 ---
 title: Как добавить RSS для своего блога
-layout: post
+layout: default
 tags: [rss, blog, dev]
 ---
 

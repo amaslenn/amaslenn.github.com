@@ -1,5 +1,4 @@
 ---
-layout: index
 title: Blog of amaslenn
 ---
 {% for post in site.posts %}

@@ -1,6 +1,6 @@
 ---
 title: Пробка
-layout: post
+layout: default
 tags: [auto, нижний новгород, пробка]
 ---
 
