@@ -4,7 +4,7 @@ layout: post
 ---
 
 [Git worktree](https://git-scm.com/docs/git-worktree) - create branch in separate folder  
-[Git bisect](https://git-scm.com/docs/git-bisect) - search for first bad commit
+[Git bisect](https://git-scm.com/docs/git-bisect) - search for the first bad commit
 
 ## Motivation
 Bisecting may take a while and it makes repository "taken" so no work can be done in it until `bisect` finished.
@@ -34,6 +34,11 @@ git bisect bad <bad-revision>
 git bisect run <check script>
 git bisect reset
 ```
+
+## Notes on bisect script
+Verification script must return 0 for success, everything between 1 and 127
+(inclusively) are treated as error. 125 has a special meaning, it skips commit.
+Everythig else breaks the `bisect` process.
 
 ## Clean up worktree
 ```sh
